@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+    <head>
+       
+        <body>
+
+            <style>
+
+
+
+
+
+body{
+    width: 100vh;
+    height: 100vh;
+    background-color: whitesmoke
+    
+}
+
+
+#wrapper{
+    width: 500px;
+    height: 600px;
+    margin-left: 70%;
+    margin-top: 30%;
+    border-radius: 10px;
+    background-color: #07326b
+   
+    
+}
+
+
+
+#b{
+    margin: 2%;
+    padding: 20px;
+    font-size: 20px;
+    padding-left: 100px;
+    border-radius: 5px;
+    border: 1px solid #1d7fb3
+    
+    
+}
+
+#c{
+    font-size: 40px;
+    padding: 20px;
+    width: 460px;
+    color: white;
+    background-color: #1d7fb3;
+    font-family: sans-serif;
+}
+
+#r{
+    padding: 10px;
+    font-size: 20px;
+    color: white;
+   background-color: #1d7fb3
+    
+}
+            </style>
+            
+            <div align="center">
+                <div id="wrapper">
+                    <div id="c">E-LIBRARY</div>
+                    <br> <br><br>
+                    <!-- <div id="a">Sign Up</div> -->
+                    <br>
+                    <form action="{%url 'login'%}" method="get">
+                        <input id="b" type="text" name="name" placeholder="Enter Full name" required>
+                        <br><br>
+                        <input id="b" type="text" name="name" placeholder="Email" required>
+                        <br><br>
+                        <input id="b" type="text" name="name" placeholder="Your favorite book" required>
+                    </form>
+
+                    <br>
+
+                   <a href="{%url 'login'%}" ><button id="r">Register</button></a> 
+
+                </div>
+
+            </div>
+
+           
+
+            
+        </body>
+    </head>
+</html>

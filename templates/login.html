@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+ 
+    <head>
+        <link rel="stylesheet" href="/bookapp/bookapp/static/css/login.css">
+        <title></title>
+        <!-- {%load static%} -->
+        <link rel="stylesheet" href="{% static 'login.css'%}">
+    </head>
+
+    <body>
+        <!DOCTYPE html>
+        <html>
+        
+        <head>
+            <link rel="stylesheet" href="/login.css">
+            <title>login.html</title>
+        </head>
+        
+        <body>
+
+            <style>
+            
+ /* backgound #495057 */
+/* wrapper #121212 */
+/* bg blue #417690 */
+
+body{
+    background-color: whitesmoke
+}
+
+#head{
+    font-family: 'Arial Narrow', Arial, sans-serif;
+    font-size: 40px;
+    color: white;
+    padding: 20px;
+    /* background-color: #167eb1; */
+}
+
+
+#login{
+    font-size: 25px;
+}
+
+#wrapper{
+    width: 500px;
+    height: 600px;
+    margin-top: 10%;
+    border-radius: 10px;
+    background-color: #07326b
+}
+
+#pass{
+    color: #36b3f2;
+    font-size: 20px;
+}
+
+#form{
+   margin-top: 30px;
+   padding: 20px;
+   padding-left: 30px;
+   font-size: 20px;
+   border-radius: 8px;
+   border-color: 1px solid #417690
+   
+}
+
+#submit{
+    padding: 10px;
+    background-color: #417690;
+}
+
+            </style>
+            <div align="center">
+            <div id="wrapper">
+                <br>
+            <h2 id="head"> E-LIBRARY SYSTEM</h2>
+                <!-- <div id="library">E-LIBRARY SYSTEM</div> -->
+        
+                <!-- <div id="login">Login</div> -->
+        
+    
+        
+                <form  action="{%url 'landing'%}" method="get">
+                
+                    <br><br>
+                    <a href="{%url 'landing'%}"><button id="form">Gallery</button></a>
+                    <br><br>
+                    <a href="{%url 'landing'%}"><button id="form">Amazon Store</button></a>
+                    <br><br>
+                    <a href="{%url 'landing'%}"><button id="form">Alibaba Store</button></a>
+                    
+                </form>
+        
+                <br><br><br>
+        
+                <!-- <a  href="{%url 'landing'%}"> <button id="submit"> Submit</button></a> -->
+        
+                <!-- <hr> --> <br><br>
+        
+                
+                <!-- <a id="pass" href="">Forgot Password</a>  -->
+        
+            </div>
+        </div>
+        </body>
+        </html>
+
+      
+    </body>
+</html>

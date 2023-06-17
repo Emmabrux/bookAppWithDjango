@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+    <head>
+       
+        <body>
+
+            <style>
+
+
+
+
+
+body{
+    width: 100vh;
+    height: 100vh;
+    background-color: #527ba3
+    
+}
+
+
+#wrapper{
+    width: 500px;
+    height: 500px;
+    margin-left: 70%;
+    margin-top: 30%;
+    border-radius: 10px;
+    background-color: #121212
+   
+    
+}
+
+
+
+#b{
+    margin: 2%;
+    padding: 10px;
+    font-size: 20px;
+    padding-left: 100px;
+    border-radius: 5px;
+    border: 1px solid #1d7fb3
+    
+    
+}
+
+#c{
+    font-size: 20px;
+    padding: 20px;
+    width: 460px;
+    color: white;
+    background-color: #417690 ;
+    font-family: sans-serif;
+}
+
+#r{
+    padding: 10px;
+    font-size: 15px;
+    color: white;
+   background-color: #417690;
+    
+}
+            </style>
+            
+            <div align="center">
+                <div id="wrapper">
+                    <div id="c">E-LIBRARY</div>
+                    <br>
+                    <div id="a">Sign Up</div>
+                    <br>
+                    <form action="{%url 'login'%}" method="get">
+                        <input id="b" type="text" name="name" placeholder="Enter Full name" required>
+                        <br><br>
+                        <input id="b" type="text" name="name" placeholder="Email" required>
+                        <br><br>
+                        <input id="b" type="text" name="name" placeholder="Your favorite book" required>
+                    </form>
+
+                    <br>
+
+                   <a href="{%url 'landing'%}" ><button id="btn1">Upload Book</button></a> 
+
+                </div>
+
+            </div>
+
+           
+
+            
+        </body>
+    </head>
+</html>
